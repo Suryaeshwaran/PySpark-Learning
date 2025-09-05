@@ -15,7 +15,7 @@ brew install python
 python3 --version
 ```
 
-#### Create & Activate my virtual environment:
+#### Create & Activate python virtual environment:
 ``` bash
 python3 -m venv <venv name>
 source <venv name>/bin/activate
