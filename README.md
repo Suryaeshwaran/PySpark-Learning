@@ -1,2 +1,2 @@
 # PySpark-Learning
-🚀 30-Day PySpark Personal Learning Plan (Infra Background)
+🚀 30-Day PySpark Personal Learning Plan
