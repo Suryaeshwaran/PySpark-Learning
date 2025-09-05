@@ -1,4 +1,4 @@
-#### Install Homebrew & python on MAC: 
+- #### Install Homebrew & python on MAC: 
 ---
 1. If you don't have Homebrew installed, open the Terminal app 
 (you can find it in the Utilities folder in Applications or use Spotlight search). 
@@ -16,7 +16,7 @@ brew install python
 python3 --version
 ```
 
-#### Create & Activate python virtual environment:
+- #### Create & Activate python virtual environment:
 ``` bash
 python3 -m venv <venv name>
 source <venv name>/bin/activate
