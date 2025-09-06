@@ -3,17 +3,19 @@
 1. List
 2. Dictionary
 3. For Loop
+
 There are four collection data types in the Python programming language:
 - List is a collection which is ordered and changeable. Allows duplicate members.
 - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 - Set is a collection which is unordered, unchangeable(but can remove or add), and unindexed. No duplicate members.
+
 - Dictionary is a collection which is ordered** and changeable. No duplicate members.
 - [ ] Lists
 	- Lists are used to store multiple items in a single variable.
 	- Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 	- Lists are created using square brackets: (list.py)
 
-```
+``` bash
 mylist = ["apple", "banana", "cherry"]
 print(mylist)
 ```
@@ -21,7 +23,7 @@ List items:
 - List items are ordered, changeable, and allow duplicate values.
 - List items are indexed, the first item has index [0], the second item has index [1] etc.
 
-```
+``` bash
 print(mylist[0])
 
 # To see the type
@@ -32,7 +34,7 @@ print(type(mylist))
 	- Dictionaries are used to store data values in key:value pairs.
 	- A dictionary is a collection which is ordered, changeable and do not allow duplicates.
 
-```
+``` bash
 mydict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 print(mydict["brand"])
 
@@ -44,12 +46,12 @@ thisdict = {
 }
 ```
 
-Loops:
+- [ ] Loops:
 - Python has two primary types of loops: the for loop and the while loop.
 - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 - With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
-```
+``` bash
 # Demo for loop with string and list of fruits
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
@@ -58,7 +60,7 @@ for fruit in fruits:
 
 - Looping Through a String
 
-```
+``` bash
 # Demo for loop with string
 print("\nCharacters in the word 'banana':")
 for char in "banana":
@@ -67,7 +69,7 @@ for char in "banana":
 
 - With the break statement we can stop the loop before it has looped through all the items:
 
-```
+``` bash
 # Demo break statement
 fruits = ["apple", "banana", "cherry"]
 print("\nDemo break statement:")
@@ -79,7 +81,7 @@ for fruit in fruits:
 
 - With the continue statement we can stop the current iteration of the loop, and continue with the next:
 
-```
+``` bash
 # Do not print banana:
 fruits = ["apple", "banana", "cherry"]
 print("\nDemo continue statement:")
@@ -92,7 +94,7 @@ for fruit in fruits:
 - To loop through a set of code a specified number of times, we can use the range() function.
 - The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
 
-```
+``` bash
 # Demo range function
 print("\nDemo range function:")
 for i in range(6):
@@ -101,7 +103,7 @@ for i in range(6):
 
 - range function with starting value
 
-```
+``` bash
 # Demo range with start and end
 print("\nDemo range with start and end:")
 for i in range(2, 6):
@@ -111,7 +113,7 @@ for i in range(2, 6):
 - range function with increment value
 - The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3):
 
-```
+``` bash
 # Demo range with step
 print("\nDemo range with step:")
 for i in range(3, 30, 3):
@@ -120,7 +122,7 @@ for i in range(3, 30, 3):
 
 - The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
 
-```
+``` bash
 # Demo else statement with for loop
 fruits = ["apple", "banana", "cherry"]
 print("\nDemo else statement with for loop:")
@@ -134,7 +136,7 @@ Nested Loops
 - A nested loop is a loop inside a loop.
 - The "inner loop" will be executed one time for each iteration of the "outer loop":
 
-```
+``` bash
 # Demo nested loop
 print("\nDemo nested loop:")
 adj = ["red", "big", "tasty"]
@@ -146,7 +148,7 @@ for x in adj:
 
 - Print multiplication table of 4 in format 4 x i = result  
 
-```
+``` bash
 print("\nMultiplication table of 4:")
 for i in range(1, 13):
     print("4 x", i, "=", 4 * i)
@@ -155,7 +157,7 @@ for i in range(1, 13):
 The pass statement 
 - for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
 
-```
+``` bash
 # Using pass in for loop
 print("\nUse pass in for loop:")
 for i in range(5):
