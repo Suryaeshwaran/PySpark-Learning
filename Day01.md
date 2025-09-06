@@ -4,7 +4,7 @@
 2. Dictionary
 3. For Loop
 
-#### Lists
+#### 1. Lists
 - Lists are used to store multiple items in a single variable.
 - Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 - Lists are created using square brackets: (list.py)
@@ -24,9 +24,10 @@ print(mylist[0])
 print(type(mylist))
 ```
 
-#### Dictionary
-	- Dictionaries are used to store data values in key:value pairs.
-	- A dictionary is a collection which is ordered, changeable and do not allow duplicates.
+#### 2. Dictionary
+
+- Dictionaries are used to store data values in key:value pairs.
+- A dictionary is a collection which is ordered, changeable and do not allow duplicates.
 
 ``` bash
 mydict = {"brand": "Ford", "model": "Mustang", "year": 1964}
@@ -47,7 +48,7 @@ thisdict = {
 - Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
 
-#### Loops:
+#### 3. Loops
 - Python has two primary types of loops: the for loop and the while loop.
 - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 - With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
