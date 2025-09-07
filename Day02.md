@@ -178,3 +178,130 @@ def sum_natural(n):
 
 print("\nSum of first 5 natural numbers is", sum_natural(5))   # 5 + 4 + 3 + 2 + 1 = 15
 ```
+#### 2. File Handling
+File handling means working with files on your computer using Python:
+- Python has several functions to Create , Open, Read, Write and Close files.
+The key function for working with files in Python is the open() function
+- The open() function takes two parameters; filename, and mode.
+There are four different methods (modes) for opening a file:
+``` bash
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+# In addition you can specify if the file should be handled as binary or text mode
+
+"t" - Text - Default value. Text mode
+"b" - Binary - Binary mode (e.g. images)
+```
+**Syntax**
+``` python
+# To open a file for reading it is enough to specify the name of the file:
+file = open("myfile.txt")
+
+#The code above is the same as:
+file = open("myfile.txt", "rt")
+
+# Because "r" for read, and "t" for text are the default values, you do not need to specify them.
+
+# 👉 Always close the file when done:
+file.close()
+```
+Open a File on the Server
+Make the the file has some content inside.
+``` python
+file = open("example.txt")
+print(file.read())
+file.close()
+```
+Using _**with**_ (Best Practice ✅)
+- Instead of open() and close(), use with.  
+- Python will automatically close the file when done.
+``` python
+with open("example.txt") as file:
+    print(file.read())
+```
+**Read Lines**
+``` python
+# Read one line of the file:
+  print(file.readline())
+# Read two lines of the file:
+  print(file.readline())
+  print(file.readline())
+```
+**Writing to a File**
+``` python
+file = open("myfile.txt", "w")
+file.write("Hello, World!")
+file.write("\nThis is my first file in Python!\n")
+file.close()
+print("myfile.txt File written successfully.")
+```
+**Write to an Existing file**
+
+To write to an existing file, you must add "a" parameter to the open() function:
+``` python
+file = open("myfile.txt", "a")
+file.write("This is my second line.\n")
+```
+**Overwrite Existing Content**
+``` python
+# Overwriting the file
+with open("example.txt", "w") as file:
+    file.write("Oops! I have deleted the content! - overwrite \n")
+print("example.txt File overwritten successfully.")
+
+#open and read the file after the overwriting:
+with open("example.txt") as f:
+  print(f.read())
+```
+**Writing List of Lines**
+``` python
+# Write list of lines to a file
+lines = ["First line.\n", "Second line.\n", "Third line.\n"]
+with open("lines.txt", "w") as file:
+    file.writelines(lines)
+print("lines.txt File with multiple lines written successfully.")
+```
+**Example with "x" mode**
+
+"x" - Create - will create a file, returns an error if the file exists
+``` python
+try:
+    with open("newfile.txt", "x") as file:
+        file.write("This file is created using x mode.\n")
+    print("newfile.txt File created successfully.")
+    # Trying to create the same file again will raise an error
+    with open("newfile.txt", "x") as file:
+        file.write("This will raise an error.\n")
+except FileExistsError:
+    print("newfile.txt already exists. Cannot create the file again using x mode.")
+```
+**Delete a File**
+``` python
+import os
+os.remove("newfile.txt")
+print("newfile.txt File deleted successfully.")
+```
+**Check if File exist then delete:**
+``` python
+import os
+if os.path.exists("example.txt"):
+    os.remove("example.txt")
+    print("example.txt File deleted successfully.")
+else:
+    print("The file does not exist.")
+```
+**Delete a folder**
+
+Note: You can only remove empty folders.
+``` python
+import os
+folder = "myfolder"
+if os.path.exists(folder) and os.path.isdir(folder):
+    os.rmdir(folder)
+    print(f"{folder} Folder deleted successfully.")
+else:
+    print("The folder does not exist.")
+```
