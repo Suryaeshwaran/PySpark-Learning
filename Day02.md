@@ -4,7 +4,7 @@
 - A function is a block of code which runs only when it is called.
 - You can pass data, know as parameters into a function and a function can return data as result.
 
-In Python a function is defined using the <span style="color:lightgreen">'def'</span> keyword:
+In Python a function is defined using the <font color="green">'def'</font> keyword:
 
 ``` python
 def my_function():
@@ -37,8 +37,8 @@ def my_funtion2(fname, lname):
 print("\nFunction with 2 parameters")
 my_funtion2("Raj", "Kumar")
 ```
-**Arbitrary Argument** <span style="color:lightgreen">(*args) </span>
-- When we don't know how many arguments will be passed, we can add a <span style="color:lightgreen"> * </span> before the parameter name in the function definition.
+**Arbitrary Argument** <font color="green">(*args) </font>
+- When we don't know how many arguments will be passed, we can add a <font color="green"> * </font> before the parameter name in the function definition.
 - This way the function will receive a tuple(a data structure consists of multiple parts) of arguments, and can access the items accordingly:
 ``` python
 def my_funtion3(*kids):
@@ -49,7 +49,7 @@ my_funtion3("Emil", "Tobias", "Linus")
 my_funtion3("Suresh", "Rajesh", "Senthil", "Kumar")
 ```
 **Keyword argument**
-- We can also send arguments with the <span style="color:lightgreen">key = value </span>syntax.
+- We can also send arguments with the <font color="green">key = value </font>syntax.
 - This way the order of the arguments does not matter.
 ``` python
 def my_funtion4(child3, child2, child1):
@@ -57,8 +57,8 @@ def my_funtion4(child3, child2, child1):
 
 my_funtion4(child1 = "Akila", child2 = "Vini", child3 = "Surya")
 ```
-**Arbitrary Keyword argument** <span style="color:lightgreen">(**kwargs)</span>
-- When we do not know how many keyword arguments that will be passed into the function, add two asterisk: <span style="color:lightgreen">**</span> before the parameter name in the function definition.
+**Arbitrary Keyword argument** <font color="green">(**kwargs)</font>
+- When we do not know how many keyword arguments that will be passed into the function, add two asterisk: <font color="green">**</font> before the parameter name in the function definition.
 ``` python
 def my_funtion5(**kid):
     print("\nHis first name is " + kid["fname"])
@@ -94,15 +94,15 @@ def my_funtion8(x):
 print("\nFunction with return values")
 print(my_funtion8(3))
 ```
-The <span style="color:lightgreen">pass </span> statement
+The <font color="green">pass </font> statement
 - Function definitions cannot be empty, but if you for some reason have a function definition with no content, put in the pass statement to avoid getting an error.
 ``` python 
 def my_funtion9():
     pass
 ```
 **Position-Only Argument**
-- To make an argument positional-only, use the forward slash <span style="color:lightgreen">(/) </span> symbol. All the arguments before this symbol will be treated as positional-only.
-- Everything before <span style="color:lightgreen">/</span> must be passed by position, not as keywords.
+- To make an argument positional-only, use the forward slash <font color="green">(/) </font> symbol. All the arguments before this symbol will be treated as positional-only.
+- Everything before <font color="green">/</font> must be passed by position, not as keywords.
 
 *Why ?*
 - To prevent users from relying on parameter names (so you can change names later without breaking code).
@@ -120,8 +120,8 @@ my_funtion10("Suresh", 25) # ✅ works
 my_funtion10(name="Suresh", age=25) # ❌ error (because of `/`)
 ```
 **Keyword-Only Argument**
-- To specify that a function can have only keyword arguments, add <span style="color:lightgreen">*</span>, before the arguments:
-- Everything after <span style="color:lightgreen">* </span> must be passed as a keyword argument.
+- To specify that a function can have only keyword arguments, add <font color="green">*</font>, before the arguments:
+- Everything after <font color="green">* </font> must be passed as a keyword argument.
 
 *Why ?*
 - To make code more readable and avoid confusion when a function has many optional arguments.
