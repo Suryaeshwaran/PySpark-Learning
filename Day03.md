@@ -1,4 +1,4 @@
-#### Day03:  Python Basics (DataFrames, Filtering)
+#### Day03:  Learn Pandas (DataFrames, Filtering)
 ---
 **Pandas** is a popular **open-source Python library** used for **data manipulation and analysis.**
 - It provides fast, flexible, and expressive data structures designed to make working with structured data both easy and intuitive. 
@@ -126,4 +126,30 @@ print(filtered_df_like)
 filtered_df_regex = df.filter(regex='^A|C', axis=1)
 print("\nFiltered DataFrame by regex (columns starting with 'A' or 'C'):")
 print(filtered_df_regex)
+```
+**Output**
+``` sql
+Filtered DataFrame by items (Name and City):
+      Name         City
+0    Alice     New York
+1      Bob  Los Angeles
+2  Charlie      Chicago
+
+Filtered DataFrame by like (columns containing 'a'):
+      Name
+0    Alice
+1      Bob
+2  Charlie
+
+Filtered DataFrame by regex (columns starting with 'A' or 'C'):
+   Age         City
+0   25     New York
+1   30  Los Angeles
+2   35      Chicago
+
+Filtered DataFrame by like (rows where Name contains 'a'):
+      Name  Age      City
+0    Alice   25  New York
+2  Charlie   35   Chicago
+
 ```
