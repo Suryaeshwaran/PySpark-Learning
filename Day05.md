@@ -1,6 +1,6 @@
 #### Day05:  Brush up SQL (SELECT, WHERE, GROUP BY, JOIN)
 ---
-SQL -> Structured Query Language, 
+**SQL -> Structured Query Language**
 - SQL lets you access and manipulate data in relational databases.
 - SQL statements consist of keywords that are easy to understand.
 
@@ -9,7 +9,7 @@ SQL -> Structured Query Language,
 - The SELECT statement is used to select data from a database.
 The following SQL statement returns all records from a table named "Customers":
 
-SQL Try it: [For W3 School SQL Try it:] [https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all]
+**Check Out:** [For W3 School SQL Try it:](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
 ``` sql
 SELECT * FROM Customers;
