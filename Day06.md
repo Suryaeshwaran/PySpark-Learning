@@ -54,3 +54,30 @@ PySpark is widely used in various applications, including −
 - **Machine Learning−** Implementing machine learning algorithms for predictive analytics.
 - **Data Streaming−** Processing streaming data in real-time.
 - **Data Engineering−** Managing and transforming big data for various use cases.
+
+#### Prerequisites of Concept to learn PySpark:
+
+**Apache Hadoop**
+- Open-source framework for storing and processing big data across clusters of computers
+- Uses MapReduce programming model for distributed processing
+- Provides fault tolerance and scalability for handling petabyte-scale datasets
+
+**Scala Programming Language**
+- Functional and object-oriented programming language that runs on the Java Virtual Machine
+- Combines features of both paradigms with concise, expressive syntax
+- Native language for Apache Spark development with strong type safety
+
+**Hadoop Distributed File System (HDFS)**
+- Distributed storage system that splits large files across multiple machines in a cluster
+- Provides high fault tolerance through automatic data replication across nodes
+- Optimized for high-throughput access to large datasets rather than low-latency operations
+
+**Python**
+- High-level, interpreted programming language known for simple, readable syntax
+- Extensive ecosystem of libraries for data science, machine learning, and web development
+- Popular choice for big data processing through frameworks like PySpark and pandas
+
+**Apache Spark**
+- In-memory distributed computing engine for fast processing of large datasets
+- Provides unified APIs for batch processing, real-time streaming, machine learning, and graph processing
+- Much faster than traditional MapReduce due to memory-based computations
