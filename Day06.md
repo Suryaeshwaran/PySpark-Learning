@@ -12,7 +12,7 @@
 - The primary **purpose** of PySpark is to **enable processing of large-scale datasets in real-time** across a distributed computing environment **using Python.** 
 - PySpark **provides an interface for interacting with Spark's core functionalities,** such as working with Resilient Distributed Datasets (RDDs) and DataFrames, using the Python programming language.
 
-### Key Components of PySpark
+#### Key Components of PySpark
 
 - **RDDs (Resilient Distributed Datasets):**
 	- RDDs are the fundamental data structure in Spark. 
@@ -29,7 +29,7 @@
 	- Spark Streaming enables real-time data processing and stream processing. 
 	- It allows you to process live data streams and update results in real-time.
 
-###  Features of PySpark
+####  Features of PySpark
 
 - **Integration with Spark:−** 
 	- PySpark is tightly integrated with Apache Spark, allowing seamless data processing and analysis using Python Programming.
@@ -46,7 +46,7 @@
 - **Partitioning:−** 
 	- Efficiently partitions data to enhance processing speed and efficiency.
 
-### Applications of PySpark
+#### Applications of PySpark
 
 PySpark is widely used in various applications, including −
 
