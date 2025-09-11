@@ -2,10 +2,10 @@
 ---
 
 #### What is PySpark?
-- Apache Spark is a powerful open-source data processing engine written in Scala, designed for large-scale data processing.
 - To support Python with Spark, Apache Spark community released a tool, PySpark. 
-- Using PySpark, you can work with RDDs(Resilient Distributed Datasets) in Python programming language also.
+- Apache Spark is a powerful open-source data processing engine written in Scala, designed for large-scale data processing.
 - PySpark is the Python API for Apache Spark. It allows you to interact/interface with Spark's distributed computation framework using Python, making it easier to work with big data in a language many data scientists and engineers are familiar with. 
+- Using PySpark, you can work with RDDs(Resilient Distributed Datasets) in Python programming language also.
 - By using PySpark, you can create and manage Spark jobs, and perform complex data transformations and analysis.
 
 #### Why PySpark?
