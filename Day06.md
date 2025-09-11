@@ -55,7 +55,7 @@ PySpark is widely used in various applications, including −
 - **Data Streaming−** Processing streaming data in real-time.
 - **Data Engineering−** Managing and transforming big data for various use cases.
 
-#### Prerequisites of Concept to learn PySpark:
+#### Prerequisites Basic Concept Before learning PySpark:
 
 **Apache Hadoop**
 - Open-source framework for storing and processing big data across clusters of computers
