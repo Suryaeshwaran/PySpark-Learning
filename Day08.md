@@ -28,6 +28,7 @@ To apply any operation in PySpark, we need to create a PySpark RDD first.
 PySpark uses a **two-layer architecture:**
 - **Python layer:** Provides the familiar Python API
 - **JVM layer:** Handles the actual distributed processing
+
 The RDD class acts as a bridge between these layers, allowing you to write Python code while leveraging Spark's distributed computing engine.
 
 The following code block has the detail of a PySpark RDD Class 
