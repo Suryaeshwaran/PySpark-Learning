@@ -14,15 +14,17 @@ To apply operations on these RDD's, there are two ways:-
 - **Transformations (lazy):** map, filter, flatMap, reduceByKey, union, etc.
 - **Actions (trigger computation):** collect, count, take, saveAsTextFile, etc.
 
-**Transformation**
+**Transformation:**
 
 - These are the operations, which are applied on a RDD to create a new RDD. 
 - Filter, groupBy and map are the examples of transformations.
 
-**Action**
+**Action:**
 
 - These are the operations that are applied on RDD, which instructs Spark to perform computation and send the result back to the driver.
+
 To apply any operation in PySpark, we need to create a PySpark RDD first. 
+
 PySpark uses a **two-layer architecture:**
 - **Python layer:** Provides the familiar Python API
 - **JVM layer:** Handles the actual distributed processing
