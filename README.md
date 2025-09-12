@@ -8,7 +8,7 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 👉 **In short:** PySpark = Python + Spark = Fast, scalable big data analysis.
 
-##### 🚀 30-Day PySpark Personal Learning Plan
+#### 🚀 30-Day PySpark Personal Learning Plan
 ---
 **Week-1:** Foundations
 **Goal:** Build Python & SQL skills, get PySpark running locally.
