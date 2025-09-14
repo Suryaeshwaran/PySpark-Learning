@@ -47,7 +47,7 @@ df_final.select("first_name", "hire_date", "experience_years", "experience_level
 ```
 
 **Group & agg:** 
-- For each dept compute count and avg_salary, sort by avg_salary desc.
+- For each dept compute count and avg_salary, sort by avg_salary.
 ``` python
 df.groupBy('job_id') \
   .agg(
