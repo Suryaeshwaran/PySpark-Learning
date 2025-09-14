@@ -1,8 +1,0 @@
-employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id
-101,John,Doe,john.doe@example.com,515.123.4567,2020-01-15,IT_PROG,60000,0.1,100,60
-102,Jane,Smith,jane.smith@example.com,515.123.4568,2019-05-20,HR_REP,55000,,100,90
-103,Peter,Jones,peter.jones@example.com,515.123.4569,2021-03-10,MK_REP,45000,0.2,100,20
-104,Mary,Williams,mary.williams@example.com,515.123.4570,2018-08-01,SA_REP,75000,0.15,101,80
-105,David,Brown,david.brown@example.com,515.123.4571,2022-11-25,PU_CLERK,35000,,102,10
-106,Robert,Davis,robert.davis@example.com,515.123.4572,2015-09-14,HR_MGR,95000,0.1,101,90
-107,Chris,Evans,chris.evans@example.com,515.123.4573,2024-02-10,IT_PROG,62000,0.1,100,60
