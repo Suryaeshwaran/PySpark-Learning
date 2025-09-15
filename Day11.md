@@ -1,6 +1,7 @@
 #### Day11: Use Spark SQL
 ---
 Spark SQL is a powerful, expressive way to run SQL over your Spark DataFrames / tables.
+
 We will see: how to create views, run queries, do joins (including broadcast), use window functions and UDFs, inspect plans, cache results and save outputs — plus a few short practice tasks.
 
 
