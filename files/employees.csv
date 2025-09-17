@@ -8,3 +8,14 @@ employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,comm
 107,Chris,Evans,chris.evans@example.com,515.123.4573,2024-02-10,IT_PROG,62000,0.1,100,60
 108,Jane,Smith,jane.smith@example.com,515.987.6543,2021-03-22,IT_PROG,65000,0.12,100,60
 109,Peter,Jones,peter.jones@example.com,515.555.1234,2019-11-05,IT_PROG,70000,0.1,100,60
+110,Susan,Taylor,susan.taylor@example.com,515.123.4574,2020-06-18,SA_REP,72000,0.18,104,80
+111,Michael,Clark,michael.clark@example.com,515.123.4575,2017-07-09,AC_ACCOUNT,50000,,106,110
+112,Linda,Martinez,linda.martinez@example.com,515.123.4576,2019-01-28,HR_REP,52000,,106,90
+113,James,Lee,james.lee@example.com,515.123.4577,2021-10-15,IT_PROG,68000,0.1,107,60
+114,Patricia,Walker,patricia.walker@example.com,515.123.4578,2016-12-03,PU_CLERK,36000,,105,10
+115,Daniel,Harris,daniel.harris@example.com,515.123.4579,2023-04-11,SA_REP,77000,0.2,110,80
+116,Barbara,Young,barbara.young@example.com,515.123.4580,2018-09-27,MK_REP,48000,0.15,103,20
+117,Matthew,Hall,matthew.hall@example.com,515.123.4581,2020-05-14,IT_PROG,66000,0.1,107,60
+118,Elizabeth,Allen,elizabeth.allen@example.com,515.123.4582,2015-02-19,HR_MGR,98000,,106,90
+119,Steven,King,steven.king@example.com,515.123.4583,2014-11-01,AD_PRES,150000,,NULL,100
+120,Nancy,Scott,nancy.scott@example.com,515.123.4584,2019-07-22,AC_MGR,85000,,111,110
