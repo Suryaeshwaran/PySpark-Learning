@@ -40,9 +40,11 @@ spark.sql("DROP TABLE IF EXISTS departments")
 ```
 **Exercise 2: Case When**
 - Create a column salary_band in SQL:
+``` bash
 	< 40,000 → "Low"
 	40,000–70,000 → "Medium"
 	> 70,000 → "High"
+```
 
 ``` python
 from pyspark.sql import SparkSession
