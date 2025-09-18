@@ -19,3 +19,8 @@ employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,comm
 118,Elizabeth,Allen,elizabeth.allen@example.com,515.123.4582,2015-02-19,HR_MGR,98000,,106,90
 119,Steven,King,steven.king@example.com,515.123.4583,2014-11-01,AD_PRES,150000,,NULL,100
 120,Nancy,Scott,nancy.scott@example.com,515.123.4584,2019-07-22,AC_MGR,85000,,111,110
+121,Arjun,Kumar,ARJUN.KUMAR,900-123-4567,2025-09-18,INTERN,30000,,100,60
+122,Sneha,Iyer,SNEHA.IYER,900-234-5678,2025-09-18,INTERN,30000,,100,60
+123,Rohan,Patel,ROHAN.PATEL,900-345-6789,2025-09-18,INTERN,30000,,100,60
+124,Kavya,Sharma,KAVYA.SHARMA,900-456-7890,2025-09-18,INTERN,30000,,101,80
+125,Vivek,Nair,VIVEK.NAIR,900-567-8901,2025-09-18,INTERN,30000,,101,80
