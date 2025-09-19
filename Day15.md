@@ -15,7 +15,9 @@
 **Executors:**
 - Worker Processes(JVMs) that run on cluster nodes, executing tasks and storing data for your application.
 
-**Execution Flow:**
+---
+
+#### Execution Flow:-
 
 _When you Submit a Spark application, the execution follows this pattern:_
 
