@@ -43,7 +43,7 @@ spark.stop()
 	- Stage 2: reduce side (aggregate).
 
 #### Narrow vs Wide Transformations
-- **Narrow transformations**
+**Narrow transformations :**
   
   Each output partition depends on a single input partition.
 
@@ -51,7 +51,7 @@ spark.stop()
 - No shuffle required.   
 - Fast, stays within executor.
 
-- **Wide transformations**
+**Wide transformations :**
 
   Each output partition depends on multiple input partitions.
   
