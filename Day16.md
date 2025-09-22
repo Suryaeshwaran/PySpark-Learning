@@ -16,7 +16,9 @@
 	- MEMORY_AND_DISK (spills to disk if memory is insufficient)
 	- DISK_ONLY (no memory use, always disk)
 	- MEMORY_ONLY_SER (serialized, saves space, uses CPU to deserialize)
+
 👉 Use cache() when dataset fits comfortably in memory.
+
 👉 Use persist(MEMORY_AND_DISK) for large datasets that may not fit.
 
 #### 3. Checkpointing
@@ -78,7 +80,7 @@ spark-submit --master "local[*]" example.py 2>&1 | tee -a spark_output.log
 **Task 1:**
 - Run the above script with and without cache() → observe recomputation time.
 
-_Below is the execution output_
+_Below is the execution output:_
 
 **With cache()**
 ``` bash
