@@ -136,6 +136,4 @@ stop-dfs.sh
 
 Here’s a clear comparison of Client vs Cluster Mode in Spark on YARN:
 
-| Feature | Client Mode | Cluster Mode |
-
-|---------||------------||------------|
+![Client vs Cluster](image.png)
