@@ -133,3 +133,9 @@ yarn application -kill application_12345
 stop-yarn.sh
 stop-dfs.sh
 ```
+
+Here’s a clear comparison of Client vs Cluster Mode in Spark on YARN:
+
+| Feature | Client Mode | Cluster Mode |
+
+|---------||------------||------------|
