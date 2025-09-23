@@ -38,7 +38,7 @@ brew install hadoop
 ```
 - Setting Hadoop Home path at ~/.zshrc
 ``` bash
-export HADOOP_HOME="/opt/homebrew/Cellar/hadoop/3.4.1/libexec/"
+export HADOOP_HOME="/opt/homebrew/Cellar/hadoop/3.4.1/libexec"
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 ```
