@@ -137,3 +137,4 @@ stop-dfs.sh
 Here’s a clear comparison of Client vs Cluster Mode in Spark on YARN:
 
 ![Client vs Cluster](image.png)
+<img src="image.png" alt="Client vs Cluster" width="200"/>
