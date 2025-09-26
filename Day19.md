@@ -20,18 +20,19 @@ spark-submit \
   --driver-memory 1G \
   wordcount.py
 ```
-Details:
-``` bash
---num-executors → total executors requested.
---executor-cores → CPU cores per executor.
---executor-memory → memory per executor (excluding overhead).
---driver-memory → memory for the driver.
-```
 
 👉 Example above requests:
 
 - 3 executors × 2 cores = 6 cores total.
 - 3 executors × 2G memory = 6G memory total.
+
+Other Details:
+``` text
+--num-executors → total executors requested.
+--executor-cores → CPU cores per executor.
+--executor-memory → memory per executor (excluding overhead).
+--driver-memory → memory for the driver.
+```
 
 #### 3. Dynamic Allocation
 
@@ -56,10 +57,53 @@ When multiple Spark jobs run:
 - FIFO (First In First Out) → default, jobs run in order of submission.
 - Fair Scheduler → resources shared fairly across jobs.
 
-In YARN:
+To Enable fair share we use below syntax while spark-submit:
+``` bash
+--conf spark.scheduler.mode=FAIR
+```
 
-- You can set queues (production, dev, etc.).
-- Each queue can have resource limits.
+Example:
+```
+spark-submit \
+  --master yarn \
+  --conf spark.scheduler.mode=FAIR \
+  wordcount.py
+```
+
+In YARN:
+-  Use pool configuration for finer control:
+- Create fairscheduler.xml in $SPARK_HOME/conf/:
+``` xml
+<allocations>
+  <pool name="production">
+    <schedulingMode>FAIR</schedulingMode>
+    <weight>2</weight>
+    <minShare>2</minShare>
+  </pool>
+  <pool name="dev">
+    <schedulingMode>FAIR</schedulingMode>
+    <weight>1</weight>
+    <minShare>1</minShare>
+  </pool>
+</allocations>
+``` 
+
+- Then tell Spark to use it:
+``` bash
+spark.scheduler.allocation.file=/path/to/fairscheduler.xml
+```
+- In your code, you can set a pool for specific jobs:
+```
+spark.sparkContext.setLocalProperty("spark.scheduler.pool", "dev")
+```
+
+#### Verify Scheduling Mode
+
+Check the Spark UI → Jobs Tab.
+
+Under “Scheduling Mode”, it will show FIFO or FAIR.
+
+If using pools, jobs will be grouped under pool names.
 
 #### 5. Monitoring
 
