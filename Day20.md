@@ -79,7 +79,7 @@ from pyspark.sql.functions import broadcast
 spark = SparkSession.builder \
     .appName("Day20_Joins") \
     .master("local[*]") \
-    .config("spark.sql.autoBroadcastJoinThreshold", -1) \  # disable auto broadcast for demo
+    .config("spark.sql.autoBroadcastJoinThreshold", -1) \ # disable auto broadcast for demo
     .getOrCreate()
 
 # Employees (big table)
