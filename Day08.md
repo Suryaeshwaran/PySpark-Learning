@@ -1,4 +1,4 @@
-#### Day08: Understanding RDDs (Basics)
+#### Day08: Understanding Basics RDDs, Transformations & Actions
 ---
 Before we start writing program lets understand the fundamental concept in Spark - RDD.
 
@@ -16,12 +16,30 @@ To apply operations on these RDD's, there are two ways:-
 
 **Transformation:**
 
-- These are the operations, which are applied on a RDD to create a new RDD. 
+- They define a new DataFrame/RDD from an existing one.
 - Filter, groupBy and map are the examples of transformations.
+- 👉 They only describe what to do, not actually do it.
 
 **Action:**
 
+- They force Spark to actually run the transformations.
 - These are the operations that are applied on RDD, which instructs Spark to perform computation and send the result back to the driver.
+- 👉 They trigger Spark to build the physical plan and run jobs.
+
+**Example:**
+``` python
+# Lazy: nothing runs yet
+df = spark.read.csv("employees.csv", header=True, inferSchema=True)
+
+transformed = df.filter(df.salary > 5000).select("employee_id", "salary")
+
+# Still lazy, Spark just builds a DAG
+transformed2 = transformed.groupBy().avg("salary")
+
+# Execution happens ONLY here
+result = transformed2.collect()
+```
+✅ Spark only runs the DAG when collect() is called.
 
 To apply any operation in PySpark, we need to create a PySpark RDD first. 
 
