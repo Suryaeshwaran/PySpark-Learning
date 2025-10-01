@@ -41,6 +41,11 @@ spark-submit --master "local[*]" join.py
 👉 Partitioning strategies help control this.
 
 #### 3. Partitioning Strategies for Joins
+
+1. Shuffle Hash Join (default) 
+2. Broadcast Hash Join
+3. Repartitioning Before Join
+
 **Shuffle Hash Join (default)**
 - Spark redistributes both DataFrames by join key.
 - Costly when both are large.
