@@ -225,6 +225,13 @@ print("ORC Read Time:", round(time.time() - start, 2), "s")
 
 spark.stop()
 ```
+**Output:**
+``` bash
+CSV Read Time: 2.03 s
+Parquet Read Time: 0.29 s
+JSON Read Time: 0.11 s
+ORC Read Time: 0.6 s
+```
 #### ✅ Summary
 ![alt text](image-7.png)
 #### 💡 Tips & Tricks
