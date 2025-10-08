@@ -28,9 +28,10 @@ df.write.format("<format>").options(...).save("<path>")
 ```
 You can also use shortcut methods: .csv(), .json(), .parquet(), .orc().
 
-#### Practical PySpark Examples
+#### 4. Practical PySpark Examples
 Let’s go through examples for each file type 👇
-**1. Read CSV**
+
+**4.1 Read CSV**
 ``` python
 from pyspark.sql import SparkSession
 
@@ -48,7 +49,7 @@ df_csv.write.mode("overwrite").csv("file:///Users/sureshkumar/myspark/week4/file
 ```
 - Make output & data paths are available
 
-**2. Read JSON**
+**4.2 Read JSON**
 ``` python
 from pyspark.sql import SparkSession
 
@@ -70,7 +71,7 @@ df_json.write.mode("overwrite").json("file:///Users/sureshkumar/myspark/week4/fi
 {"employee_id": 104, "first_name": "Emily", "last_name": "Johnson", "department_id": 30, "salary": 6500}
 {"employee_id": 105, "first_name": "Michael", "last_name": "Lee", "department_id": 20, "salary": 6200}
 ```
-#### 3. Read Parquet
+#### 4.3 Read Parquet
 
 We need to create a parquet file in first place.
 
@@ -110,7 +111,7 @@ df_parquet.printSchema()
 df_parquet.write.mode("overwrite").parquet("file:///Users/sureshkumar/myspark/week4/file-formats/output/employees_parquet")
 ```
 - ✅ Parquet automatically keeps schema and data types, so it loads much faster.
-#### 4. Read ORC
+#### 4.4 Read ORC
 **Create ORC file:**
 ``` python
 from pyspark.sql import SparkSession
@@ -148,7 +149,7 @@ df_orc.write.mode("overwrite").orc("file:///Users/sureshkumar/myspark/week4/file
 
 ```
 
-#### 🧩 5. Compare Performance (Small Test)
+#### 5. Compare Performance (Small Test)
 
 ``` python
 from pyspark.sql import SparkSession
