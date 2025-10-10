@@ -150,7 +150,9 @@ df_cum.show()
 |     Sales|   Alice|  6000|    5000.0|   1000.0|
 |     Sales|     Bob|  4000|    5000.0|  -1000.0|
 +----------+--------+------+----------+---------+
-
+```
+**1️⃣ Deviation from average** → Shows how much each employee earns above/below their department’s mean.
+``` bash
 === Top 2 earners per department ===
 +----------+--------+------+----+
 |department|employee|salary|rank|
@@ -160,7 +162,9 @@ df_cum.show()
 |     Sales|   Alice|  6000|   1|
 |     Sales|    John|  5000|   2|
 +----------+--------+------+----+
-
+```
+**2️⃣ Top 2 earners** → Uses rank() so ties are handled properly.
+``` bash
 === Cumulative salary percentage per department ===
 +----------+--------+------+------------+-----------------+------------------+
 |department|employee|salary|total_salary|cumulative_salary|cumulative_percent|
@@ -173,10 +177,6 @@ df_cum.show()
 |     Sales|     Bob|  4000|       15000|            15000|             100.0|
 +----------+--------+------+------------+-----------------+------------------+
 ```
-**1️⃣ Deviation from average** → Shows how much each employee earns above/below their department’s mean.
-
-**2️⃣ Top 2 earners** → Uses rank() so ties are handled properly.
-
 **3️⃣ Cumulative %** → Adds up salaries in descending order to show what % of department total each employee contributes cumulatively.
 
 **⚡ Observation:**
