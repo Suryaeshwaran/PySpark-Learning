@@ -138,7 +138,41 @@ print("=== Cumulative salary percentage per department ===")
 df_cum.show()
 ```
 **💡 Output Summary:**
+``` bash
+=== Average salary per department and deviation ===
++----------+--------+------+----------+---------+                               
+|department|employee|salary|avg_salary|deviation|
++----------+--------+------+----------+---------+
+|        HR|    Mary|  4500|    4500.0|      0.0|
+|        HR|   Steve|  5500|    4500.0|   1000.0|
+|        HR|   Nancy|  3500|    4500.0|  -1000.0|
+|     Sales|    John|  5000|    5000.0|      0.0|
+|     Sales|   Alice|  6000|    5000.0|   1000.0|
+|     Sales|     Bob|  4000|    5000.0|  -1000.0|
++----------+--------+------+----------+---------+
 
+=== Top 2 earners per department ===
++----------+--------+------+----+
+|department|employee|salary|rank|
++----------+--------+------+----+
+|        HR|   Steve|  5500|   1|
+|        HR|    Mary|  4500|   2|
+|     Sales|   Alice|  6000|   1|
+|     Sales|    John|  5000|   2|
++----------+--------+------+----+
+
+=== Cumulative salary percentage per department ===
++----------+--------+------+------------+-----------------+------------------+
+|department|employee|salary|total_salary|cumulative_salary|cumulative_percent|
++----------+--------+------+------------+-----------------+------------------+
+|        HR|   Steve|  5500|       13500|             5500|             40.74|
+|        HR|    Mary|  4500|       13500|            10000|             74.07|
+|        HR|   Nancy|  3500|       13500|            13500|             100.0|
+|     Sales|   Alice|  6000|       15000|             6000|              40.0|
+|     Sales|    John|  5000|       15000|            11000|             73.33|
+|     Sales|     Bob|  4000|       15000|            15000|             100.0|
++----------+--------+------+------------+-----------------+------------------+
+```
 **1️⃣ Deviation from average** → Shows how much each employee earns above/below their department’s mean.
 
 **2️⃣ Top 2 earners** → Uses rank() so ties are handled properly.
