@@ -94,6 +94,7 @@ df_merge.write.mode("overwrite").parquet(output_path)
 - Logic — compare last_updated_at in source vs. target.
 
 Step 1: Create source & target DataFrames
+
 Step 2: Detect new or updated rows
 
 Use left join and filter where:
@@ -143,7 +144,7 @@ incremental_df.show()
 |     3|Carol| Finance|2025-10-12 09:10:00|
 +------+-----+--------+-------------------+
 ```
-**Exercise 2:** Implement the same pipeline using Delta Lake’smerge() API (if available).
+**Exercise 2:** Implement the same pipeline using Delta Lake’s merge() API (if available).
 
 **Goal:** Use Delta Lake’s merge() API to perform upserts — automatically inserting new rows and updating existing rows based on a unique key (e.g., emp_id) and change detection (last_updated_at).
 
