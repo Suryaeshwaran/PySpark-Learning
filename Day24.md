@@ -1,4 +1,4 @@
-#### Day24: Window Functions & Analytics in PySpark
+#### 📘 Day24: Window Functions & Analytics in PySpark
 ---
 #### 🎯 Goal:
 Learn how to perform advanced analytics — ranking, running totals, lead/lag comparisons — using window functions in PySpark.
