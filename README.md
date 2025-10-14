@@ -8,14 +8,14 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 👉 **In short:** PySpark = Python + Spark = Fast, scalable big data analysis.
 
-#### 🚀 30-Day PySpark Personal Learning Plan
+#### 🚀 30-Day PySpark Learning Plan
 ---
 
-**Goal:** Build Python & SQL skills, get PySpark running locally.
-<details>
-  <summary> Week-1: Foundations </summary>
 
-  **Goal:** Build Python & SQL skills, get PySpark running locally.
+<details>
+  <summary>🗓️ Week-1: Foundations </summary>
+
+  **🎯 Goal:** Build Python & SQL skills, get PySpark running locally.
   - **[📘 Day 00:](daywise/Day00.md)** Generic 
   - **[📘 Day 01:](daywise/Day01.md)** Python Basics
   - **[📘 Day 02:](daywise/Day02.md)** Python Basics (Functions, File handling)
@@ -28,9 +28,9 @@ It lets you process and analyze large datasets in parallel across multiple machi
 </details>
 
 <details>
-<summary>Week-2: PySpark Core APIs</summary>
+<summary>🗓️ Week-2: PySpark Core APIs</summary>
 
-**Goal:** Master DataFrames & Spark SQL.
+**🎯 Goal:** Master DataFrames & Spark SQL.
 
   - **[📘 Day 08:](daywise/Day08.md)** Understanding Basics RDDs, Transformations & Actions 
   - **[📘 Day 09:](daywise/Day09.md)** Work with DataFrames (select, filter, withColumn)
@@ -42,9 +42,9 @@ It lets you process and analyze large datasets in parallel across multiple machi
 </details>
 
 <details>
-<summary>Week-3: Infra + Spark Cluster Skills</summary>
+<summary>🗓️ Week-3: Infra + Spark Cluster Skills</summary>
 
-**Goal:** Go beyond single-node, use infra knowledge.
+**🎯 Goal:** Go beyond single-node, use infra knowledge.
 
 - **[📘 Day 15:](daywise/Day15.md)** Spark execution model (Driver, Cluster manager, Executor)
 - **[📘 Day 16:](daywise/Day16.md)** Spark Persistence: Cache & Checkpointing
@@ -57,9 +57,9 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 
 <details>
-<summary>Week-4: Advanced + Real Projects</summary>
+<summary>🗓️ Week-4: Advanced + Real Projects</summary>
 
-**Goal:** Solve real-world problems.
+**🎯 Goal:** Solve real-world problems.
 
 - **[📘 Day 22:](daywise/Day22.md)** Work with File Formats (CSV, JSON, Parquet, ORC)
 - **[📘 Day 23:](daywise/Day23.md)** Log Analysis Project
