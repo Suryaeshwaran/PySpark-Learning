@@ -47,6 +47,13 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 **Goal:** Go beyond single-node, use infra knowledge.
 
+- **[📘 Day 15:](daywise/Day15.md)** Spark execution model (Driver, Cluster manager, Executor)
+- **[📘 Day 16:](daywise/Day16.md)** Spark Persistence: Cache & Checkpointing
+- **[📘 Day 17:](daywise/Day17.md)** Spark Shuffles
+- **[📘 Day 18:](daywise/Day18.md)** Run Spark on YARN / standalone cluster
+- **[📘 Day 19:](daywise/Day19.md)** Resource Management & Job Scheduling 
+- **[📘 Day 20:](daywise/Day20.md)** Joins & Partitioning Strategies 
+- **[📘 Day 21:](daywise/Day21.md)** Actions, Transformations & Lazy Evaluation (Deep Dive)
 </details>
 
 
@@ -55,4 +62,13 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 **Goal:** Solve real-world problems.
 
+- **[📘 Day 22:](daywise/Day22.md)** Work with File Formats (CSV, JSON, Parquet, ORC)
+- **[📘 Day 23:](daywise/Day23.md)** Log Analysis Project
+- **[📘 Day 24:](daywise/Day24.md)** Window Functions & Analytics in PySpark
+- **[📘 Day 25:](daywise/Day25.md)** Real-World ETL Project using PySpark
+- **[📘 Day 26:](daywise/Day26.md)** Incremental ETL & Data Refresh (Append / Merge Pipelines) 
+- **[📘 Day 27:](daywise/Day27.md)** Streaming Basics, Streaming with Kafka
+- **[📘 Day 28:](daywise/Day28.md)** 
+- **[📘 Day 29:](daywise/Day29.md)** 
+- **[📘 Day 30:](daywise/Day30.md)** 
 </details>
