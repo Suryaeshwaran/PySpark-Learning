@@ -17,7 +17,7 @@ It lets you process and analyze large datasets in parallel across multiple machi
   <summary>Week-1: Foundations </summary>
 
   - **Goal:** Build Python & SQL skills, get PySpark running locally.
-  - **📘 Day 00:** Generic
+  - **📘 Day 00:** [Generic](Day00.md)
   - **📘 Day 01:** Python Basics
 
 </details>
