@@ -224,6 +224,11 @@ Batch: 2
 +--------+-------+--------+-----+
 ```
 #### 🧩 Exercises
+1. Read real-time sales data from Kafka and calculate running total sales.
+
+2. Write the stream to a Parquet sink every 30 seconds.
+
+3. Add a checkpoint directory and verify fault recovery.
 
 #### 🔹 Exercise 1: Read real-time sales data from Kafka and calculate running total sales.
 
