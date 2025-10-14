@@ -231,6 +231,7 @@ Batch: 2
 3. Add a checkpoint directory and verify fault recovery.
 
 **🔹 Exercise 1:** 
+
 Read real-time sales data from Kafka and calculate running total sales.
 
 **Code:** _running_sales_kafka.py_
