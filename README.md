@@ -10,7 +10,6 @@ It lets you process and analyze large datasets in parallel across multiple machi
 
 #### 🚀 30-Day PySpark Personal Learning Plan
 ---
-**Week-1:** Foundations
 
 **Goal:** Build Python & SQL skills, get PySpark running locally.
 <details>
