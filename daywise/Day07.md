@@ -1,4 +1,4 @@
-#### Day07: Installing PySpark & Run Script
+#### 📘 Day07: Installing PySpark & Run Script
 ---
 
 #### Below is a concise, copy-pasteable:

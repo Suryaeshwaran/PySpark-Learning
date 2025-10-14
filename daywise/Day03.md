@@ -1,4 +1,4 @@
-#### Day03:  Learn Pandas (DataFrames, Filtering)
+#### 📘 Day03:  Learn Pandas (DataFrames, Filtering)
 ---
 **Pandas** is a popular **open-source Python library** used for **data manipulation and analysis.**
 - It provides fast, flexible, and expressive data structures designed to make working with structured data both easy and intuitive. 

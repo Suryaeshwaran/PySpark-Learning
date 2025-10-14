@@ -1,4 +1,4 @@
-#### Day22: Work with File Formats (CSV, JSON, Parquet, ORC)
+#### 📘 Day22: Work with File Formats (CSV, JSON, Parquet, ORC)
 ---
 
 In real projects, Spark rarely works with in-memory data only; it mostly reads/writes data from files in various formats.

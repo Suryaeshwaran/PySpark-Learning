@@ -1,4 +1,4 @@
-#### Day13: DataFrame API Exercises
+#### 📘 Day13: DataFrame API Exercises
 ---
 **Exercise 1: Nested withColumn Transformation**
 - Dataset: employees (employee_id, name, salary, job_id, hire_date)

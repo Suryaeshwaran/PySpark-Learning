@@ -1,4 +1,4 @@
-#### Day05:  Brush up SQL (SELECT, WHERE, GROUP BY, JOIN)
+#### 📘 Day05:  Brush up SQL (SELECT, WHERE, GROUP BY, JOIN)
 ---
 **SQL -> Structured Query Language**
 - SQL lets you access and manipulate data in relational databases.

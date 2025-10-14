@@ -1,4 +1,4 @@
-#### Day14: Spark SQL Exercises
+#### 📘 Day14: Spark SQL Exercises
 ---
 **Exercise 1: Join & Aggregation Challenge**
 - Tables: employees, departments.

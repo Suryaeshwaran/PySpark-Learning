@@ -1,4 +1,4 @@
-#### Day08: Understanding Basics RDDs, Transformations & Actions
+#### 📘 Day08: Understanding Basics RDDs, Transformations & Actions
 ---
 Before we start writing program lets understand the fundamental concept in Spark - RDD.
 

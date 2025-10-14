@@ -1,4 +1,4 @@
-#### Day21: Actions, Transformations & Lazy Evaluation (Deep Dive)
+#### 📘 Day21: Actions, Transformations & Lazy Evaluation (Deep Dive)
 ---
 
 #### 1. Transformations vs Actions

@@ -1,4 +1,4 @@
-#### Day19: Resource Management & Job Scheduling
+#### 📘 Day19: Resource Management & Job Scheduling
 ---
 
 #### 1. Understand Spark Resources

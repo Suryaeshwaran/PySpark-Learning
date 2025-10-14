@@ -1,4 +1,4 @@
-#### Day17: Spark Shuffles
+#### 📘 Day17: Spark Shuffles
 ---
 
 #### What is a Shuffle?

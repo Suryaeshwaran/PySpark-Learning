@@ -1,4 +1,4 @@
-#### Day02:  Python Basics (Functions, File handling)
+#### 📘 Day02:  Python Basics (Functions, File handling)
 ---
 #### 1. Functions
 - A function is a block of code which runs only when it is called.

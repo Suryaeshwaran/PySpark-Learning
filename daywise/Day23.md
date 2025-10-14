@@ -1,4 +1,4 @@
-#### Day23: Log Analysis Project
+#### 📘 Day23: Log Analysis Project
 ---
 This is your first real-world style mini-project, combining everything you’ve learned so far (reading files, filtering, transformations, and actions).
 #### 📁 Sample Data (Log Format)

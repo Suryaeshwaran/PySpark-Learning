@@ -1,4 +1,4 @@
-#### Day11: Use Spark SQL
+#### 📘 Day11: Use Spark SQL
 ---
 Spark SQL is a powerful, expressive way to run SQL over your Spark DataFrames / tables.
 

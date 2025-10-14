@@ -1,4 +1,4 @@
-#### Day16: Spark Persistence: Cache & Checkpointing
+#### 📘 Day16: Spark Persistence: Cache & Checkpointing
 ---
 
 #### 1. Why Persistence Matters

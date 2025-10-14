@@ -1,4 +1,4 @@
-#### Day20: Joins & Partitioning Strategies
+#### 📘 Day20: Joins & Partitioning Strategies
 ---
 
 #### 1. Spark Joins

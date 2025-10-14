@@ -1,4 +1,4 @@
-#### Day09: Work with DataFrames (select, filter, withColumn).
+#### 📘 Day09: Work with DataFrames (select, filter, withColumn).
 ---
 
 - A data frame is a structured representation of data.

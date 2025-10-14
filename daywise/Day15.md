@@ -1,4 +1,4 @@
-#### Day15: Spark execution model (Driver, Cluster manager, Executor)
+#### 📘 Day15: Spark execution model (Driver, Cluster manager, Executor)
 ---
 **Apache Spark's** execution model is built around a distributed computing framework that efficiently processes large datasets across clusters.
 

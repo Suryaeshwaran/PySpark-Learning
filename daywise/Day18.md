@@ -1,4 +1,4 @@
-#### Day18: Run Spark on YARN / standalone cluster
+#### 📘 Day18: Run Spark on YARN / standalone cluster
 ---
 
 #### Install Hadoop (includes YARN)

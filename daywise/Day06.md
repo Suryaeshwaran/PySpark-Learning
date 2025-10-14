@@ -1,4 +1,4 @@
-#### Day06:  Introduction to PySpark
+#### 📘 Day06:  Introduction to PySpark
 ---
 
 #### What is PySpark?

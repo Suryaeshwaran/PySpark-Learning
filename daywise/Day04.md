@@ -1,4 +1,4 @@
-#### Day04:  Learn Pandas (Grouping, Joins/Merge)
+#### 📘 Day04:  Learn Pandas (Grouping, Joins/Merge)
 ---
 #### 1. Pandas Grouping
 **Grouping** in Pandas is like: "Split the data into groups based on one or more columns, then apply an operation like sum, mean, count, etc. and then combine as result".

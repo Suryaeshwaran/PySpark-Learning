@@ -1,4 +1,4 @@
-#### Day10: Practice joins & aggregations
+#### 📘 Day10: Practice joins & aggregations
 ---
 
 **Small practice exercises**

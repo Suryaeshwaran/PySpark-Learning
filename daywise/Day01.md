@@ -1,4 +1,4 @@
-- #### Day01:  Python Basics (Lists, Dictionary, Loops)
+#### 📘 Day01:  Python Basics (Lists, Dictionary, Loops)
 ---
 1. List
 2. Dictionary

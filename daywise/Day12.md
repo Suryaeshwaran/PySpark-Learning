@@ -1,4 +1,4 @@
-#### Day12: SQL Practise Exercise
+#### 📘 Day12: SQL Practise Exercise
 ---
 **Exercise 1:** 
 
