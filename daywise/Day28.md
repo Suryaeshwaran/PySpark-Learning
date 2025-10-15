@@ -6,7 +6,11 @@ Learn how to detect and process **INSERT, UPDATE, and DELETE** changes from a so
 CDC means **tracking and capturing changes** (new, modified, deleted records) from a source table or file, and applying them to a target system like a data warehouse or data lake.
 
 **Example:**
-![alt text](image-9.png)
+
+Suppose You have:
+![alt text](image-11.png)
+Next day, your source changes to:
+![alt text](image-12.png)
 
 **CDC identifies:**
 - id=2 → UPDATE
@@ -52,6 +56,10 @@ df_merge = df_old.alias("old").join(df_new.alias("new"), on="id", how="outer") \
     )
 
 df_merge.show()
+```
+**Execution:**
+``` bash
+spark-submit cdc_batch_example.py
 ```
 **Output:**
 ``` bash
@@ -140,7 +148,7 @@ df_merge.show()
 #### ⚙️ Exercise 2:
 Write only changed records (CDC output) to a Parquet file.
 
-**Code:** _cutomer_cdc_parquet.py_
+**Code:** _customer_cdc_parquet.py_
 ``` bash
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
@@ -208,7 +216,7 @@ CDC pipelines are incremental by design — you only move what changed, reducing
 
 They form the backbone of **ETL refresh, Data Warehouse updates, and Streaming data lakes.**
 
-#### 🌟 Summary
+#### 🌟 Summary:
 
 ⚡ You’ve now mastered Change Data Capture (CDC) with PySpark:
  
