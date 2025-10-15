@@ -67,7 +67,7 @@ It lets you process and analyze large datasets in parallel across multiple machi
 - **[📘 Day 25:](daywise/Day25.md)** Real-World ETL Project using PySpark
 - **[📘 Day 26:](daywise/Day26.md)** Incremental ETL & Data Refresh (Append / Merge Pipelines) 
 - **[📘 Day 27:](daywise/Day27.md)** Streaming Basics, Streaming with Kafka
-- **[📘 Day 28:](daywise/Day28.md)** 
+- **[📘 Day 28:](daywise/Day28.md)** Change Data Capture (CDC) Pipelines 
 - **[📘 Day 29:](daywise/Day29.md)** 
 - **[📘 Day 30:](daywise/Day30.md)** 
 </details>
