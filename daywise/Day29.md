@@ -27,7 +27,7 @@ kafka-topics --create --topic customers_cdc --bootstrap-server localhost:9092
 ```
 
 #### ⚙️ Exercise 1: Read CDC Stream from Kafka
-- Create _read_cdc_stream_from_kafka._py
+- Create *read_cdc_stream_from_kafka.py*
 ``` python
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col
@@ -64,7 +64,7 @@ df_parsed.writeStream \
 ``` bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.13:4.0.1 read_cdc_stream_from_kafka.py
 ```
-**Start Producers & send message: **
+**Start Producers & send message:**
 ``` bash
 kafka-console-producer --topic customers_cdc --bootstrap-server localhost:9092
 ```
