@@ -13,7 +13,7 @@ Build a complete PySpark ETL pipeline that:
 
 #### ✅ Prepare All Things Needed:
 **File:** *data/batch_customers.csv*
-``` json
+``` text
 customer_id,name,country
 101,John Doe,USA
 102,Jane Smith,UK
